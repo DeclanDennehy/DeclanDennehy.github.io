@@ -1,1 +1,113 @@
-"Hello World" 
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+        <style>
+            body{
+                background-color: #444444;
+                color: #F4F6F6;
+                text-align: center;
+            }
+            .tile{
+                height: 100vh;
+                width: 100vw;
+                overflow: hidden;
+            }
+            .header{
+                text-align: center;
+            }
+            .header>h1{
+                border: 3px solid #F4F6F6;
+                border-radius: 7%;
+                padding: 5vw;
+            }
+            .about>h1{
+                border-bottom: 3px solid #F4F6F6;
+            }
+            .skills>.progress{
+                margin: 2%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="tile header">
+            <h1>DECLAN DENNEHY<br>DEVOPS ENGINEER<br><i class="fas fa-chevron-down"></i></h1>
+        </div>
+        <div class="tile about">
+            <h1>ABOUT</h1>
+            
+            <h2>My Values</h2>
+            <div class="row">
+                <div class="col">
+                    <h3>
+                        <i class="fas fa-sitemap"></i><br>
+                        Organisation
+                    </h3>
+                    <p>
+                        Issue Tracking and Documentation allows team members to contribute efficiently and independently.
+                    </p>
+                </div>
+                <div class="col">
+                    <h3>
+                        <i class="fas fa-robot"></i><br>
+                        Automation
+                    </h3>
+                    <p>
+                        Automation allows developers to focus on what matters - the product. 
+                    </p>
+                </div>
+                <div class="w-100"></div>
+                <div class="col">
+                    <h3>
+                        <i class="fas fa-cogs"></i><br>
+                        Innovativion
+                    </h3>
+                    <p>
+                        Stay competitive by keeping up to date with the latest design principles and technologies.
+                    </p>
+                </div>
+                <div class="col">
+                    <h3>
+                        <i class="fas fa-comments"></i><br>
+                        Communication
+                    </h3>
+                    <p>Open Communication between developer, consultants and clients.</p>
+                </div>
+            </div>
+
+            <h2>My Skills</h2>
+            <div class="skills">
+                <div class="progress" style="height: 3vh;">
+                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 10%; text-align:center; font-weight: bolder;">Python</div>
+                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+                </div>
+                <div class="progress" style="height: 3vh;">
+                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 10%; text-align:center; font-weight: bolder;">JavaScript</div>
+                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                </div>    
+                <div class="progress" style="height: 3vh;">
+                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 10%; text-align:center; font-weight: bolder;">PHP</div>
+                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"></div>
+                </div>    
+                <div class="progress" style="height: 3vh;">
+                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 10%; text-align:center; font-weight: bolder;">Docker</div>
+                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 45%;"></div>
+                </div>
+                <div class="progress" style="height: 3vh;">
+                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 10%; text-align:center; font-weight: bolder;">Bash</div>
+                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="tile portfolio">
+            portfolio
+        </div>
+        <div class="tile contact">
+            contact
+        </div>
+    </body>
+</html>
